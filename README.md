@@ -10,7 +10,7 @@ so this plugin is used only to print using GoogleCloud and AirPrint, other solut
 Through the [Command-line Interface](http://cordova.apache.org/docs/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface):
 
 ```bash
-cordova plugin add cordova plugin add https://github.com/difa1/phonegap-print-plugin
+cordova plugin add https://github.com/difa1/phonegap-print-plugin.git
 cordova build
 ```
 
