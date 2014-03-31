@@ -6,6 +6,20 @@ This Plugin is inspired from [phonegap-print-plugins](https://github.com/collinf
 This Plugin brings up a native overlay to print HTML document, this plugin is using [AirPrint](http://en.wikipedia.org/wiki/AirPrint) for iOS and [Google Cloud Print](http://www.google.com/landing/cloudprint/) for android,
 so this plugin is used only to print using GoogleCloud and AirPrint, other solutions may be used to print using network printer like [this](https://github.com/katzer/cordova-plugin-printer/tree/5ef59a69ed461eadd22a202d9218a72e9f0453ae).
 
+## Adding the Plugin to your project
+Through the [Command-line Interface](http://cordova.apache.org/docs/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface):
+
+```bash
+cordova plugin add cordova plugin add https://github.com/difa1/phonegap-print-plugin
+cordova build
+```
+
+## Removing the Plugin from your project
+Through the [Command-line Interface](http://cordova.apache.org/docs/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface):
+```
+cordova plugin rm com.badrit.PrintPlugin.PrintPlugin
+```
+
 ## Usage
 
 Example Usage: 
